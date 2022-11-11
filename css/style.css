@@ -14,22 +14,6 @@
         background-color: #043873;
     }
     
-    footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 29px 220px 32px;
-        gap: 200px;
-        position: absolute;
-        width: 1920px;
-        height: 81px;
-        left: 0px;
-        top: 2319px;
-        background: #043873;
-        color: #FFFFFF;
-    }
-    
     header {
         display: flex;
         flex-direction: row;
@@ -345,6 +329,31 @@
     
     .alinha-imgs {
         position: absolute;
-        top: 0px;
+        top: -872px;
+        left: 1271px;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 1920px;
+        height: 81px;
         left: 0px;
+        top: 2319px;
+    }
+    
+    .alinha-textos {
+        color: #FFFFFF;
+        position: absolute;
+        top: -872px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 907px;
+        height: 20px;
     }
