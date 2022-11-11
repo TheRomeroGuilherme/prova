@@ -1,0 +1,39 @@
+@media only screen and(max-width: 320px){
+
+
+
+}
+@media only screen and (min-width: 768px){
+
+
+}
+@media only screen and (min-width: 1920px){
+    .toptela {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 220px;   
+        position: absolute;
+        width: 1920px;
+        height: 92px;
+        left: 0px;
+        top: 0px;
+        background: #043873;
+    }
+    h1 {
+        position: absolute;
+        width: 144px;
+        height: 34px;
+        left: 47px;
+        top: 0px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #FFFFFF;
+   }
+
+}
+
