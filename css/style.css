@@ -1,19 +1,29 @@
-@media only screen and(max-width: 320px){
+    * {
+        margin-left: auto;
+        margin-top: auto;
+    }
+    /*
+@media only screen and (max-width: 320px) {}
 
+@media only screen and (min-width: 768px) {}
 
-
-}
-@media only screen and (min-width: 768px){
-
-
-}
-@media only screen and (min-width: 1920px){
-    .toptela {
+@media only screen and (min-width: 1920px) {}
+*/
+    
+    body {
+        background-color: #043873;
+    }
+    
+    footer {
+        background-color: #043873;
+    }
+    
+    header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 16px 220px;   
+        padding: 16px 220px;
         position: absolute;
         width: 1920px;
         height: 92px;
@@ -21,7 +31,21 @@
         top: 0px;
         background: #043873;
     }
-    h1 {
+    
+    .onda {
+        position: absolute;
+        top: 67px;
+        left: -542px;
+        width: 200px;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 10px;
+        top: 0px;
+    }
+    
+    .nome {
         position: absolute;
         width: 144px;
         height: 34px;
@@ -33,7 +57,276 @@
         font-size: 28px;
         line-height: 34px;
         color: #FFFFFF;
-   }
-
-}
-
+    }
+    
+    .botoes1 {
+        position: absolute;
+        top: 8px;
+        left: 762px;
+        background-color: #043873;
+        color: white;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: lighter;
+        padding: 3px 10px;
+        display: inline-block;
+        font-size: 15px;
+        transition-duration: 0.4s;
+        border: 3px solid #043873;
+    }
+    
+    .botoes2 {
+        position: absolute;
+        top: 8px;
+        left: 845px;
+        background-color: #043873;
+        color: white;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: lighter;
+        padding: 3px 10px;
+        display: inline-block;
+        font-size: 15px;
+        transition-duration: 0.4s;
+        border: 3px solid #043873;
+    }
+    
+    .botoes3 {
+        position: absolute;
+        top: 8px;
+        left: 930px;
+        background-color: #043873;
+        color: white;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: lighter;
+        padding: 3px 10px;
+        display: inline-block;
+        font-size: 15px;
+        transition-duration: 0.4s;
+        border: 3px solid #043873;
+    }
+    
+    .botoes4 {
+        position: absolute;
+        top: 8px;
+        left: 1022px;
+        background-color: #043873;
+        color: white;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: lighter;
+        padding: 3px 10px;
+        display: inline-block;
+        font-size: 15px;
+        transition-duration: 0.4s;
+        border: 3px solid #043873;
+    }
+    
+    .botoes1:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: #1c62b3;
+        color: white;
+    }
+    
+    .botoes2:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: #1c62b3;
+        color: white;
+    }
+    
+    .botoes3:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: #1c62b3;
+        color: white;
+    }
+    
+    .botoes4:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: #1c62b3;
+        color: white;
+    }
+    
+    .login {
+        position: absolute;
+        top: 8px;
+        left: 813px;
+        background-color: #FFE492;
+        color: #043873;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: lighter;
+        padding: 16px 40px;
+        display: inline-block;
+        font-size: 15px;
+        transition-duration: 0.4s;
+        border-radius: 8px;
+        border: 3px solid #FFE492;
+    }
+    
+    .login:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: #c09a27;
+        color: white;
+    }
+    
+    .btn-alinha {
+        position: relative;
+        top: -108px;
+        left: -2449px;
+    }
+    
+    .whitepace {
+        position: absolute;
+        top: 8px;
+        left: 941px;
+        background-color: #4F9CF9;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: lighter;
+        padding: 16px 24px;
+        display: inline-block;
+        font-size: 15px;
+        transition-duration: 0.4s;
+        border-radius: 8px;
+        border: 3px solid #4F9CF9;
+    }
+    
+    .whitepace:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: #3b72b6;
+        color: white;
+    }
+    
+    .titulo {
+        position: absolute;
+        top: 263px;
+        left: 51px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 77px;
+        letter-spacing: -0.02em;
+        color: white;
+    }
+    
+    .texto {
+        position: absolute;
+        top: 313px;
+        left: 51px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 77px;
+        letter-spacing: -0.02em;
+        color: white;
+    }
+    
+    .whitepace2 {
+        position: absolute;
+        top: 392px;
+        left: 51px;
+        background-color: #4F9CF9;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: lighter;
+        padding: 16px 24px;
+        display: inline-block;
+        font-size: 15px;
+        transition-duration: 0.4s;
+        border-radius: 8px;
+        border: 3px solid #4F9CF9;
+    }
+    
+    .whitepace2:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: #3b72b6;
+        color: white;
+    }
+    
+    #atom {
+        position: absolute;
+        top: 738px;
+        left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1920px;
+        background-color: #ffffff;
+    }
+    
+    .imagem {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .titulo2 {
+        position: absolute;
+        top: 279px;
+        left: 743px;
+        width: 666px;
+        height: 87px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px;
+        letter-spacing: -0.02em;
+        color: #212529;
+    }
+    
+    .elemento {
+        position: absolute;
+        top: 330px;
+        left: 930px;
+    }
+    
+    .texto2 {
+        position: absolute;
+        top: 368px;
+        left: 752px;
+        width: 666px;
+        height: 60px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        color: #212529;
+    }
+    
+    .free {
+        position: absolute;
+        top: 456px;
+        left: 755px;
+        background-color: #4F9CF9;
+        color: white;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: lighter;
+        padding: 20px 40px;
+        display: inline-block;
+        font-size: 15px;
+        transition-duration: 0.4s;
+        border: 3px solid #4F9CF9;
+    }
+    
+    .free:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: #1c62b3;
+        color: white;
+    }
